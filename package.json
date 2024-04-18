@@ -1,0 +1,45 @@
+{
+  "name": "mern-assignment-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bloomer": "^0.6.5",
+    "bulma": "^0.7.5",
+    "dotenv": "^8.0.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "font-awesome": "^4.7.0",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-axe": "^3.2.0",
+    "react-dom": "^16.8.6",
+    "react-gravatar": "^2.6.3",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "css-build": "node-sass --omit-source-map-url src/App.scss src/index.css",
+    "css-watch": "npm run css-build -- --watch",
+    "cssrun": "npm run css-watch"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
